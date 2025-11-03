@@ -2,7 +2,6 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <a href="en.html">English</a>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>عبد الفتاح طه علي سنان | ABDEL FATAH TAHA ALI SENAN</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
