@@ -2,193 +2,216 @@
 <html lang="ar" dir="rtl">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>عبد الفتاح طه علي سنان | ABDEL FATAH TAHA ALI SENAN</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9fafb;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
-      flex-direction: column;
-    }
-
-    .container {
-      background: #fff;
-      border-radius: 20px;
-      padding: 30px 25px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      max-width: 550px;
-      width: 90%;
-      animation: fadeInUp 1s ease forwards;
-      transform: translateY(20px);
-      opacity: 0;
-    }
-
-    @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-
-    h1 {
-      font-size: 24px;
-      color: #111;
-      margin-bottom: 5px;
-      font-weight: 700;
-    }
-    h2 {
-      font-size: 17px;
-      color: #777;
-      margin-top: 0;
-      font-weight: 500;
-    }
-
-    .links a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: #007bff;
-      color: #fff;
-      text-decoration: none;
-      margin: 10px auto;
-      padding: 12px 0;
-      border-radius: 30px;
-      width: 90%;
-      max-width: 340px;
-      font-weight: 700;
-      transition: all 0.3s ease;
-      border: 2px solid transparent;
-    }
-
-    .links a i { font-size: 18px; }
-
-    .links a:hover {
-      background: #fff;
-      color: #007bff;
-      border-color: #007bff;
-      transform: translateY(-3px);
-      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    }
-
-    .links a.whatsapp { background: #25D366; }
-    .links a.whatsapp:hover { color: #25D366; border-color: #25D366; background: #fff; }
-
-    .links a.email { background: #FF6B6B; }
-    .links a.email:hover { color: #FF6B6B; border-color: #FF6B6B; background: #fff; }
-
-    .links a.website { background: #17a2b8; }
-    .links a.website:hover { color: #17a2b8; border-color: #17a2b8; background: #fff; }
-
-    /* زر WeChat */
-    .links a.wechat { background: #09b83e; }
-    .links a.wechat:hover { color: #09b83e; border-color: #09b83e; background: #fff; }
-
-    .brands {
-      margin-top: 25px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      justify-items: center;
-    }
-
-    .brand-item {
-      width: 90px;
-      height: 90px;
-      border-radius: 12px;
-      overflow: hidden;
-      background-color: transparent;
-      transition: all 0.4s ease;
-    }
-
-    .brand-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      transition: all 0.4s ease;
-    }
-
-    .brand-item:hover {
-      transform: scale(1.08);
-      box-shadow: 0 0 20px rgba(0, 140, 255, 0.25);
-    }
-
-    .brand-item:hover img {
-      filter: brightness(1.15);
-    }
-
-    footer {
-      margin-top: 25px;
-      font-size: 13px;
-      color: #888;
-    }
-
-    @media (max-width:480px){
-      h1{font-size:20px;}
-      h2{font-size:15px;}
-      .brand-item{width:70px;height:70px;}
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>شركة الملمس الراقي للتجارة  | Almalmas Alraqi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #b71c1c, #e53935, #f57c00, #43a047, #1e88e5);
+            background-size: 400% 400%;
+            animation: gradientMove 20s ease infinite;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 20px;
+            padding: 30px 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 1s ease forwards;
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .logo {
+            width: 130px;
+            max-width: 100%;
+            margin: 0 auto 15px;
+            display: block;
+        }
+        
+        h1 {
+            margin: 0 0 12px;
+            font-weight: 700;
+            font-size: 28px;
+            color: #b71c1c;
+        }
+        
+        .desc {
+            font-size: 16px;
+            margin: 6px 0;
+            line-height: 1.5;
+            color: #444;
+        }
+        
+        .link-btn {
+            display: block;
+            background: #b71c1c;
+            color: white;
+            padding: 12px 0;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 12px auto;
+            width: 90%;
+            max-width: 320px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            font-size: 16px;
+        }
+        
+        .link-btn:hover {
+            background: white;
+            color: #b71c1c;
+            border: 2px solid #b71c1c;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(183, 28, 28, 0.3);
+        }
+        
+        .social-icons {
+            margin: 25px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: #b71c1c;
+            font-size: 24px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #b71c1c;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            background: #b71c1c;
+            color: white;
+            transform: scale(1.2);
+        }
+        /* استجابة */
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 20px 15px;
+            }
+            .logo {
+                width: 100px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .desc {
+                font-size: 14px;
+            }
+            .link-btn {
+                font-size: 14px;
+                padding: 10px 0;
+            }
+        }
+        
+        @media screen and (max-width: 469px) {
+            .social-icons a {
+                font-size: 15px;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #b71c1c;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>عبد الفتاح طه علي سنان</h1>
-    <h2>ABDEL FATAH TAHA ALI SENAN</h2>
+    <div class="container">
+        
+   <!-- <h1>عذرا الصفحة غير متاحة</h1>-->
+          <!-- الشعار -->
+        <img src="image/almalmas_alraqi.png" alt="شعار اللمس الراقي" class="logo" />
 
-    <div class="links">
-      <a href="https://wa.me/96896025353" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> سلطنة عمان – (OM)</a>
-      <a href="https://wa.me/966500077697" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> المملكة العربية السعودية – (SA)</a>
-      <a href="https://wa.me/971543600523" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> الإمارات العربية المتحدة – (UAE)</a>
-      <a href="mailto:info@cvgtllc.com" target="_blank" class="website"><i class="fa fa-envelope"></i> info@cvgtllc.com</a>
-      <a href="mailto:almalmasraqi@gmail.com" target="_blank" class="email"><i class="fa fa-envelope"></i> almalmasraqi@gmail.com</a>
-      <a href="https://u.wechat.com/kMKaJddhpssedDKdGXm6zQY?s=2" target="_blank" class="wechat"><i class="fab fa-weixin"></i> WeChat</a>
-    </div>
+        <!-- اسم الحساب والوصف -->
+        <h1>شركة الملمس الراقي للتجارة </h1>
+        <p class="desc">✨ شركة رائدة تضم علامات تجارية مميزة✨</p>
+        <p class="desc"> منظفات، معطرات، عناية بالطفل، وجمال المرأة </p>
+        <p class="desc"> جودة مضمونة وأسعار تنافسية </p>
 
-    <div class="brands">
-    <div class="brand-item"><img src="images/1.png" alt="Brand 1"></div>
-  <div class="brand-item"><img src="images/2.png" alt="Brand 2"></div>
-  <div class="brand-item"><img src="images/3.png" alt="Brand 3"></div>
-  <div class="brand-item"><img src="images/4.png" alt="Brand 4"></div>
-  <div class="brand-item"><img src="images/5.PNG" alt="Brand 5"></div>
-      
-        <!-- ✅ الصورة رقم 13 كزر رابط فقط بدون تكرار -->
-  <a href="https://commonvisionllc.com/" target="_blank" class="brand-item">
-    <img src="images/6.png" alt="Brand 6 - رابط">
-  </a>
+        <!-- أيقونات التواصل -->
+        <div class="social-icons">
+            <a href="https://wa.me/+966500077697" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/almalmas.alraqi" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@.almalmas.alraqi" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/share/1F243ocN41/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Almalmas_Alraqi" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.snapchat.com/add/almalmas.alraqi" target="_blank"><i class="fab fa-snapchat"></i></a>
+        </div>
 
-  <div class="brand-item"><img src="images/7.png" alt="Brand 7"></div>
-  <div class="brand-item"><img src="images/8.png" alt="Brand 8"></div>
-  <div class="brand-item"><img src="images/9.png" alt="Brand 9"></div>
-  <div class="brand-item"><img src="images/10.png" alt="Brand 10"></div>
-  <div class="brand-item"><img src="images/11.png" alt="Brand 11"></div>
-  <div class="brand-item"><img src="images/12.png" alt="Brand 12"></div>
-  
-  <!-- ✅ الصورة رقم 13 كزر رابط فقط بدون تكرار -->
-  <a href="https://ais-spid.github.io/almalmas_alraqi/" target="_blank" class="brand-item">
-    <img src="images/13.png" alt="Brand 13 - رابط">
-  </a>
-
-  <div class="brand-item"><img src="images/14.png" alt="Brand 14"></div>
-  <div class="brand-item"><img src="images/15.png" alt="Brand 15"></div>
-  <div class="brand-item"><img src="images/16.png" alt="Brand 16"></div>
-  <div class="brand-item"><img src="images/17.png" alt="Brand 17"></div>
-  <div class="brand-item"><img src="images/18.png" alt="Brand 18"></div>
-  <div class="brand-item"><img src="images/19.png" alt="Brand 19"></div>
-  <div class="brand-item"><img src="images/20.png" alt="Brand 20"></div>
-  <div class="brand-item"><img src="images/21.png" alt="Brand 21"></div>
-  <div class="brand-item"><img src="images/22.png" alt="Brand 22"></div>
-    </div>
-
-    <footer>
-      &copy; 2025 جميع الحقوق محفوظة
+        <!-- الروابط -->
+        <div class="links">
+            <a href="image/katlog.pdf" class="link-btn" target="_blank">الكاتلوج</a>
+            <a href="https://wa.me/96896025353" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> Oman – (OM)</a>
+            <a href="https://wa.me/966500077697" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> Saudi Arabia – (SA)</a>
+            <a href="https://wa.me/971543600523" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> United Arab Emirates– (UAE)</a>
+            <a href="https://wa.me/+966500077697" class="link-btn" target="_blank">تواصل عبر WhatsApp</a>
+            <a href="https://instagram.com/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Instagram</a>
+            <a href="https://www.tiktok.com/@.almalmas.alraqi" class="link-btn" target="_blank">تابعنا على TikTok</a>
+            <a href="https://www.snapchat.com/add/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Snapchat</a>
+            <a href="https://www.facebook.com/share/1F243ocN41/" class="link-btn" target="_blank">تابعنا على Facebook</a>
+            <a href="https://twitter.com/Almalmas_Alraqi" class="link-btn" target="_blank">تابعنا على X</a>
+            <footer>
+      &copy; Edited by Arafat Al-Awadhi
     </footer>
-  </div>
+        </div>
+    </div>
 </body>
+
+
 </html>
+
+
+
+
+
+
+
+
+
+
 
