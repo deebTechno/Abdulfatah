@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<a href="en.html">English</a>
 <html lang="ar" dir="rtl">
 <head>
   
