@@ -190,6 +190,7 @@
             <a href="https://wa.me/966500077697" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> Saudi Arabia – (SA)</a>
             <a href="https://wa.me/971543600523" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> United Arab Emirates– (UAE)</a>
             <a href="https://wa.me/+966500077697" class="link-btn" target="_blank">تواصل عبر WhatsApp</a>
+            <a href="https://wa.me/+96896025353" class="link-btn" target="_blank">تواصل عبر WhatsApp (KSA)</a>
             <a href="https://instagram.com/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Instagram</a>
             <a href="https://www.tiktok.com/@.almalmas.alraqi" class="link-btn" target="_blank">تابعنا على TikTok</a>
             <a href="https://www.snapchat.com/add/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Snapchat</a>
